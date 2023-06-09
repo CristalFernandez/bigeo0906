@@ -1,0 +1,89 @@
+.logo {
+    margin-left: 20px;
+}
+
+.toggle {
+    margin-right: 20px;
+}
+
+.data-table {
+    margin-top: 80px;
+}
+
+.scroll {
+    overflow-x: auto;
+}
+
+.titulo {
+    color: #000000;
+    font-weight: bold;
+}
+
+.fondo {
+    background-image: url(../../assets/img/fondoPalta.jpg);
+    position: absolute;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    width: 100%;
+    z-index: -1;
+    height: 90vh;
+}
+
+
+/* pagination */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.pagination>.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination>li {
+    margin: 0 5px;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination>li>a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+.pagination>li:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination>.disabled {
+    cursor: not-allowed;
+    color: gray;
+}
+
+
+
+/* background */
+.container-rounded {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    height: 600px;
+    overflow-y: auto;
+    flex: 1;
+    margin-bottom: 80px;
+}
+

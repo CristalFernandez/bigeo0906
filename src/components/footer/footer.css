@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  position: relative;
+  width: 100%;
+  background-color: #3d5d4b;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  grid-column: 1;
+}
+
+.logo-image {
+  width: 200px;
+  height: 100px;
+}
+
+.footer-contact {
+  grid-column: 2;
+  text-align: right;
+}
+
+.contact-info {
+  margin: 0;
+}

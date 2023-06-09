@@ -1,0 +1,37 @@
+.logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .navbar {
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    color: #555;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .toggle {
+    background-color: transparent;
+  }
+  
+  .btn-primary {
+    margin-left: 10px;
+  }

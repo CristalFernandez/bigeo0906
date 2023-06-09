@@ -1,0 +1,62 @@
+.estado {
+    font-weight: bold;
+}
+
+.estado.no {
+    color: rgb(182, 0, 0);
+}
+
+.estado.en {
+    color: rgb(255, 165, 0);
+}
+
+.estado.finalizado {
+    color: green;
+}
+
+.estado.leído{
+    color: rgb(48, 135, 207);
+}
+
+.modal-top {
+    top: 5px;
+    margin-top: 0%;
+}
+
+.datepicker-sm {
+    width: 150px !important;
+}
+  
+.modal .modal-body .form-label {
+    text-align:left;
+}
+
+.date-pickers-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .date-pickers-container > div {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .date-pickers-container span {
+    margin-right: 5px;
+  }
+  
+  .total-days {
+    text-align: center;
+  }
+  .btn-toggle {
+    padding: 10px 20px; /* Ajusta el padding para modificar el tamaño del botón */
+    font-size: 14px; /* Ajusta el tamaño de fuente del botón */
+  }
+
+  .modal2-top {
+    top: 5px;
+    margin-top: 0%;
+}
